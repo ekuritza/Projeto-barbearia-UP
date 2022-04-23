@@ -1,36 +1,47 @@
 header {
-	background-image: linear-gradient(rgb(105, 101, 101), #f5f0f0);
-	padding: 20px 0;
+	position: fixed;
+	width: 100%;
+	background-color:darkgoldenrod;
+	/*background-image: linear-gradient(rgb(105, 101, 101), #f5f0f0);*/
+	padding: 5px 0;
+	z-index: 2;
+}
+
+header img{
+	height: 90px;
 }
 
 .caixa {
 	position: relative;
-	width: 940px;    					/*Largura padrão da web*/
+	display: flex;
+	width: 1000px;    					
 	margin: 0 auto;
 }
 
 nav {
-	position: absolute;
-	top: 110px;
-	right: 0px;
+	position: fixed;
+	display: flex;
+	top: 40px;
+	right: 50px;
 }
 
 nav li {
-	display: inline;                    /*Inline ou block ou inline-block*/
+	display: flex;                    /*Inline ou block ou inline-block*/
 	margin: 0 0 0 15px;					/*Faz o espaçamento entre as minhas listas*/
 }
 
 nav a {
-	text-transform: uppercase;    		/*transforma em maiusculo*/
-	color: black;						/*muda a cor do meu texto*/
-	font-weight: bold;					/*deixa em negrito o meu texto*/
-	font-size: 22px;					/*muda o tamanho do meu texto*/
-	text-decoration: none;				/*tira o sublinhado do meu texto*/
-	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;    		
+	color: black;						
+	font-weight: bold;					
+	font-size: 19px;				
+	text-decoration: none;
+	margin-right: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav a:hover {
-	color:  #C78C19;
+	color:  #f7f3f3;
 	text-decoration: underline;
 }
 
@@ -38,6 +49,7 @@ nav a:hover {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+
 }
 
 .produtos li {
@@ -82,12 +94,25 @@ nav a:hover {
 footer {
 	text-align: center;
 	background: url("/img/bg.jpg");
-	padding: 40px 0;
+	padding: 30px 0;
+	height: 450px;
+}
+
+footer h4{
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 5px;
+}
+
+footer p{
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 5px;
 }
 
 .copyright {
 	color: #FFFFFF;
-	font-size: 13px;
+	font-size: 15px;
 	margin: 20px;
 }
 

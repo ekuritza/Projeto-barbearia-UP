@@ -1,7 +1,8 @@
 header {
 	position: fixed;
 	width: 100%;
-	background-image: linear-gradient(rgb(105, 101, 101), #f5f0f0);
+	background-color:darkgoldenrod;
+	/*background-image: linear-gradient(rgb(105, 101, 101), #f5f0f0);*/
 	padding: 5px 0;
 	z-index: 2;
 }
@@ -21,33 +22,40 @@ header img{
 
 .caixa {
 	position: relative;
+	display: flex;
 	width: 1000px;    					
 	margin: 0 auto;
 }
 
 nav {
-	position: absolute;
+	position: fixed;
+	display: flex;
 	top: 35px;
 	right: 50px;
+}
+
+nav li {
+	display: flex;                    /*Inline ou block ou inline-block*/
+	margin: 0 0 0 15px;					/*Faz o espaçamento entre as minhas listas*/
 }
 
 nav a {
 	text-transform: uppercase;    		
 	color: black;						
 	font-weight: bold;					
-	font-size: 18px;				
+	font-size: 19px;				
 	text-decoration: none;
 	margin-right: 15px;
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav a:hover {
-	color:  #C78C19;
+	color:  #f7f3f3;
 	text-decoration: underline;
 }
 
 .copyright {
-	color: #FFFFFF;
+	color: #f3ebeb;
 	font-size: 13px;
 	margin: 20px;
 }
@@ -65,6 +73,19 @@ footer {
 	text-align: center;
 	background: url("/img/bg.jpg");
 	padding: 30px 0;
+	height: 450px;
+}
+
+footer h4{
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 5px;
+}
+
+footer p{
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 5px;
 }
 
 .copyright {
