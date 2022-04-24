@@ -54,12 +54,6 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-.copyright {
-	color: #f3ebeb;
-	font-size: 13px;
-	margin: 20px;
-}
-
 main {
 	width: 100%;
 	height: 800px;
@@ -80,16 +74,19 @@ footer h4{
 	color: #FFFFFF;
 	font-size: 20px;
 	padding: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 footer p{
 	color: #FFFFFF;
 	font-size: 15px;
 	padding: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .copyright {
 	color: #FFFFFF;
 	font-size: 15px;
-	margin: 20px;
+	margin: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
 }

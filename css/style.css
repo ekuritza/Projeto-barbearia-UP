@@ -45,6 +45,54 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+.principal {
+	position: relative;
+	display: inline-block;
+	justify-content: center;
+	height: 700px;
+}
+
+.principal p {
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: auto;
+	
+}
+
+.mapa iframe {
+	position: relative;
+	display: inline;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.mapa p{
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.titulo-principal {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 21px;
+}
+
+
+
+.utensilios {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 775px;
+}
+
 .produtos {
 	width: 940px;
 	margin: 0 auto;
@@ -56,7 +104,6 @@ nav a:hover {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
-	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;				/*Para corrigir quando o navegador soma o meu % percentual com meus pixel*/
@@ -102,22 +149,25 @@ footer h4{
 	color: #FFFFFF;
 	font-size: 20px;
 	padding: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 footer p{
 	color: #FFFFFF;
 	font-size: 15px;
 	padding: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .copyright {
 	color: #FFFFFF;
 	font-size: 15px;
-	margin: 20px;
+	margin: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 main {
-	width: 940px;
+	width: 1290px;
 	margin: 0 auto;
 
 }
