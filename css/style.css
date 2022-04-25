@@ -5,6 +5,7 @@ header {
 	/*background-image: linear-gradient(rgb(105, 101, 101), #f5f0f0);*/
 	padding: 5px 0;
 	z-index: 2;
+	box-shadow: -2px 2px 10px 0 rgb(207 212 214 / 50%);
 }
 
 header img{
@@ -47,31 +48,64 @@ nav a:hover {
 
 .principal {
 	position: relative;
-	display: inline-block;
-	justify-content: center;
-	height: 700px;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	height: 100vh;
+	padding: 0px 60px;
+	background: url("/img/salao.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.principal::before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+
 }
 
 .principal p {
+	position: relative;
 	font-family: 'Roboto Condensed', sans-serif;
-	padding: auto;
-	
+	padding: auto;	
+	color: white;
+	margin-bottom: 15px;
+	font-size: 20px;
 }
 
-.mapa iframe {
+.mapa {
 	position: relative;
-	display: inline;
-	flex-direction: row;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 30px;
 }
 
 .mapa p{
 	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 30px;
+	font-size: 19px;
 
 }
 
 .titulo-principal {
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.titulo-secundario {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -93,10 +127,11 @@ nav a:hover {
 	height: 775px;
 }
 
+
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 120px 0px 50px 0px;
 
 }
 
@@ -142,7 +177,6 @@ footer {
 	text-align: center;
 	background: url("/img/bg.jpg");
 	padding: 30px 0;
-	height: 450px;
 }
 
 footer h4{
@@ -167,19 +201,27 @@ footer p{
 }
 
 main {
-	width: 1290px;
-	margin: 0 auto;
-
+	width: 100%;
 }
 
-form {
-	margin: 40px 0;
+.contato {
+	padding: 100px 60px;
+}
+
+.contato h1 {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+
 }
 
 form label, form legend {
 	display: block;
-	font-size: 20px;
+	font-size: 19px;
 	margin: 0 0 10px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .input-padrao {
@@ -209,17 +251,19 @@ form label, form legend {
 
 .enviar:hover {
 	background: darkorange;
-	transform: scale(1.2);
+	transform: scale(1.04);
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: 20px 0px;
 }
 
 thead {
 	background: #555555;
 	color: white;
 	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+	
 }
 
 td, th {
@@ -227,6 +271,7 @@ td, th {
 	padding: 8px 15px;
 	width: 150px;
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 
