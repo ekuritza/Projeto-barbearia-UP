@@ -153,4 +153,50 @@ td, th {
 	text-align: center;
 }
 
+.titulo{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;	
+	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.fotos{
+	width: 55%;
+	margin-left: 100px;
+}
+
+.fotos1{
+	width: 30%;
+	margin-left: 100px;
+}
+
+.container p{
+	margin-left: 50px;
+	font-size:17px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.video{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.texto{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: large;
+	font-family: 'Montserrat', sans-serif;
+}
+
 
