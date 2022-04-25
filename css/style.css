@@ -25,9 +25,10 @@ nav {
 	right: 50px;
 }
 
+
 nav li {
-	display: flex;                  
-	margin: 0 0 0 15px;					
+	display: flex;
+	margin: 0 0 0 15px;
 }
 
 nav a {
@@ -58,7 +59,7 @@ nav a:hover {
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 30px 20px;
-	box-sizing: border-box;				/*Para corrigir quando o navegador soma o meu % percentual com meus pixel*/
+	box-sizing: border-box;				
 	border: 2px solid #000000;
 	border-radius: 10px;
 }
