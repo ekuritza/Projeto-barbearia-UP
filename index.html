@@ -1,48 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>Barbearia UP</title>
-		<link rel="stylesheet" href="/css/reset.css">
-		<link rel="stylesheet" href="css/style-home.css">
-	</head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbearia UP</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="css/style-home.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
 
-	<body>
-		<header>
-			<div class="caixa"> 
-				<h1><img src="/img/logo.png" alt="Logo da Barbearia"></h1>
+<body>
+    <header>
+      <div class="caixa"> 
+				<img src="/img/logo.png" alt="Logo da Barbearia UP">
+      </div>
 
-				<nav>
-						<tr>
-							<td><a href="www/produtos.html">Produtos</a></td>
-							<td>&nbsp&nbsp</td>
-							<td><a href="www/contato.html">Contato</a></td>
-						</tr>
-				</nav>
-			</div>
-		</header>
-		<main>
-			<section class="principal">
-				<h2 class="titulo-principal">Sobre a Barbearia UP</h2>
-			
-				<img class="utensilios" src="/img/utensilios.jpg" alt="Utensílios de um barbeiro.">	
-			
-				<p>Localizada no coração da cidade a <strong>Barbearia UP</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2022, a Barbearia UP é o novo destaque na cidade e conquista novos clientes a cada dia.</p>
-			
-				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e oferecer o melhor serviço de corte e barba.
-				<p>Oferecemos profissionais experientes e antenados em constante melhoria. O atendimento possui padrão de excelência e agilidade com dedicação e atenção, garantindo atendimento personalizado a cada cliente.</p>
+        <nav>
+          <tr > 
+            <td><a href="www/produtos.html">Produtos</a></td>
+            <td><a href="www/quemsomos.html">Quem Somos</a></td>
+            <td><a href="www/tiposdecorte.html">Tipos de corte</a></td>
+            <td><a href="www/carrinho.html">Carrinho</a></td>
+            <td><a href="www/contato.html">Contato</a></td>
+          </tr>
+        </nav>
+      </div>
+	
+    </header>
 
-			<section class="mapa">
-				<h3 class="titulo-principal">Nosso estabelecimento</h3>
-				<p>Nosso estabelecimento está localizado no coração da cidade</p>
+    <main role="main">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="first-slide carousel-img" src="/img/corte-cabelo.jpg" alt="First slide">
+                <div class="container">
+                  <div class="carousel-caption text-left">
+                    <h1>BARBEARIA UP</h1>
+                    <p>Contamos Profissionais treinados e capacitados. Contamos com um rigoroso controle de qualidade quanto aos nossos profissionais. Atendimento, cuidado e bem-estar é o que não falta em nossa barbearia</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="second-slide carousel-img" src="/img/espaco.jpg" alt="Second slide">
+                <div class="container">
+                  <div class="carousel-caption text-right">
+                    <h1>ESPAÇO DIFERENCIADO</h1>
+                    <p>Enquanto aguarda o atendimento, nosso clientes podem desfrutar de todas as vantagens de um cliente UP: Videogame, Mesa de sinuca, Cadeira de massagem,é só escolher e relaxar.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="third-slide carousel-img" src="/img/equipamentos.jpg" alt="Third slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>PRODUTOS EXCLUSIVOS</h1>
+                    <p>Temos uma linha completa de produtos para o seu cabelo ou barba, além disso, trabalhamos com os melhores equipamentos do mercado</p>
+                  </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            
+          </div>
+    </main>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="/js/bootstrap.js"></script>
 
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1350538966017!2d-49.277753784985656!3d-25.43374798378663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce472e85bb7eb%3A0x78328b9f96a47e4d!2sUniversidade%20Positivo%20-%20Pra%C3%A7a%20Os%C3%B3rio!5e0!3m2!1spt-BR!2sbr!4v1649376406839!5m2!1spt-BR!2sbr" width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer>
+      <img src="/img/logo-branco.png" alt="Logo da Barbearia UP">
+      <h4>BARBEARIA UP - LTDA</h4>
+      <p>PRAÇA GENERAL OSÓRIO, 125 - CENTRO - CURITIBA - PR</p>
+      <p class="copyright">&copy; Copyright Barbearia UP - 2022</p>
+    </footer>
 
-			</section>
-		</main>
-		<footer>
-			<img src="/img/logo-branco.png" alt="Logo da Barbearia UP">
-			<p class="copyright">&copy; Copyright Barbearia UP - 2022</p>
-		</footer>
-	</body>
+</body>
+
 </html>
