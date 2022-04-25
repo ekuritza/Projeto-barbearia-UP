@@ -2,7 +2,6 @@ header {
 	position: fixed;
 	width: 100%;
 	background-color:darkgoldenrod;
-	/*background-image: linear-gradient(rgb(105, 101, 101), #f5f0f0);*/
 	padding: 5px 0;
 	z-index: 2;
 	box-shadow: -2px 2px 10px 0 rgb(207 212 214 / 50%);
@@ -27,8 +26,8 @@ nav {
 }
 
 nav li {
-	display: flex;                    /*Inline ou block ou inline-block*/
-	margin: 0 0 0 15px;					/*Faz o espaçamento entre as minhas listas*/
+	display: flex;                  
+	margin: 0 0 0 15px;					
 }
 
 nav a {
@@ -141,7 +140,7 @@ nav a:hover {
 	width: 30%;
 	margin: 0 1.5%;
 	padding: 30px 20px;
-	box-sizing: border-box;				/*Para corrigir quando o navegador soma o meu % percentual com meus pixel*/
+	box-sizing: border-box;				
 	border: 2px solid #000000;
 	border-radius: 10px;
 }
