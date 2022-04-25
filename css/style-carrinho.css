@@ -6,6 +6,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .CartContainer{
@@ -26,19 +27,18 @@ body{
 }
 
 .Heading{
-	font-size: 20px;
-	font-family: 'Open Sans';
+	font-size: 40px;
 	font-weight: 700;
 	color: #2F3841;
 }
 
 .Action{
 	font-size: 14px;
-	font-family: 'Open Sans';
 	font-weight: 600;
 	color: #E44C4C;
 	cursor: pointer;
 	border-bottom: 1px solid #000000;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .itens-carrinho{
@@ -64,6 +64,7 @@ body{
 	font-family: 'Open Sans';
 	font-weight: 800;
 	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -86,17 +87,20 @@ body{
 	font-weight: 900;
 	color: #202020;
 	cursor: pointer;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .qtd{
 	font-size: 20px;
 	font-family: 'Open Sans';
 	font-weight: 600;
 	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .preco{
 	height: 100%;
 	text-align: right;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .totalpreco{
 	padding-top: 20px;
@@ -104,6 +108,7 @@ body{
 	font-family: 'Open Sans';
 	font-weight: 800;
 	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .remove{
 	padding-top: 5px;
@@ -112,6 +117,7 @@ body{
 	font-weight: 600;
 	color: #E44C4C;
 	cursor: pointer;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .pad{
@@ -132,12 +138,14 @@ hr{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .Subtotal{
 	font-size: 22px;
 	font-family: 'Open Sans';
 	font-weight: 700;
 	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .itens{
 	font-size: 16px;
@@ -145,12 +153,14 @@ hr{
 	font-weight: 500;
 	color: #909090;
 	line-height: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .total-preco{
 	font-size: 36px;
 	font-family: 'Open Sans';
 	font-weight: 900;
 	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .botao{
 	margin-top: 10px;
@@ -164,4 +174,5 @@ hr{
 	font-family: 'Open Sans';
 	font-weight: 600;
 	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
 }
