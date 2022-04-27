@@ -1,0 +1,177 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom right, darkgoldenrod, #ddce79);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.CartContainer{
+	width: 90%;
+	height: 90%;
+	background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #1687d933;
+}
+
+.Header{
+	margin: auto;
+	width: 90%;
+	height: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Heading{
+	font-size: 40px;
+	font-weight: 700;
+	color: #2F3841;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Action{
+	font-size: 14px;
+	font-weight: 600;
+	color: #E44C4C;
+	cursor: pointer;
+	border-bottom: 1px solid #000000;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.itens-carrinho{
+	margin: auto;
+	width: 90%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.imagem-box{
+	width: 15%;
+	text-align: center;
+}
+.sobre{
+	height: 100%;
+	width: 24%;
+}
+.titulo{
+	padding-top: 130px;
+	line-height: 10px;
+	font-size: 32px;
+	font-weight: 800;
+	color: #000000;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.contador{
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #d9d9d9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 900;
+	color: #202020;
+	cursor: pointer;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.qtd{
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.preco{
+	height: 100%;
+	text-align: right;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.totalpreco{
+	padding-top: 20px;
+	font-size: 26px;
+	font-family: 'Open Sans';
+	font-weight: 800;
+	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.remove{
+	padding-top: 5px;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #E44C4C;
+	cursor: pointer;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.pad{
+	margin-top: 5px;
+}
+
+hr{
+	width: 66%;
+	float: right;
+	margin-right: 5%;
+}
+.checkout{
+	float: right;
+	margin-right: 5%;
+	width: 28%;
+}
+.total{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.Subtotal{
+	font-size: 22px;
+	font-weight: 700;
+	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.itens{
+	font-size: 16px;
+	font-weight: 500;
+	color: #909090;
+	line-height: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.total-preco{
+	font-size: 36px;
+	font-weight: 900;
+	color: #202020;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.botao{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	border: none;
+	background: darkgoldenrod;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000000;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.botao:hover{
+	color: #ffffff;
+}
