@@ -1,4 +1,4 @@
-function Enviar() {
+Enviar = () => {
 
     var nome = document.getElementById("nomeid");
     var email = document.getElementById("email");
@@ -11,4 +11,10 @@ function Enviar() {
         window.alert("Dados enviados com sucesso.")
     }
 
+}
+
+
+finalizarVenda = () => {
+
+    document.getElementById("imagem").innerHTML = "<img src='/img/Teste.png' width='500' text-align='center'>";
 }
