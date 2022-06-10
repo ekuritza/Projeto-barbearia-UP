@@ -5,7 +5,7 @@ Enviar = () => {
     var telefone = document.getElementById("telefone");
     var mensagem = document.getElementById("mensagem");
 
-    if (nome.value == "" || email.value == "" || telefone.value == "" || mensagem.value == "") {
+    if (nome.value == "" && email.value == "" && telefone.value == "" && mensagem.value == "") {
         window.alert('Preencha todos os campos para que seja possível o envio');
     }else{
         window.alert("Dados enviados com sucesso.")
@@ -16,5 +16,5 @@ Enviar = () => {
 
 finalizarVenda = () => {
 
-    document.getElementById("imagem").innerHTML = "<img src='/img/Teste.png' width='500' text-align='center'>";
+    document.getElementById("imagem").innerHTML = "<img src='/img/vai-ser-assim-e-bala.png' width='500' text-align='center'>";
 }
