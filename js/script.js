@@ -16,5 +16,5 @@ Enviar = () => {
 
 finalizarVenda = () => {
 
-    document.getElementById("imagem").innerHTML = "<img src='/img/Teste.png' width='500' text-align='center'>";
+    document.getElementById("imagem").innerHTML = "<img src='/img/vai-ser-assim-e-bala.png' width='400' text-align='center'>";
 }
